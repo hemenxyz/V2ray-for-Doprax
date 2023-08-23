@@ -4,6 +4,6 @@ main:
       type: uuid
     - VMESS_WSPATH: /vmess
       type: plain
-    - VMESS_WSPATH: /vless
+    - VLESS_WSPATH: /vless
       type:plain
     
