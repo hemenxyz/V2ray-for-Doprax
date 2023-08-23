@@ -6,13 +6,13 @@ sed -i "s#UUID#$UUID#g;s#VMESS_WSPATH#$VMESS_WSPATH#g;s#VLESS_WSPATH#$VLESS_WSPA
 sed -i "s#VMESS_WSPATH#$VMESS_WSPATH#g;s#VLESS_WSPATH#$VLESS_WSPATH#g" /etc/nginx/nginx.conf
 
 
-config_link="vmess://ws+tls:$UUID-0@$DOPRAX_APP_URL:443/?path=$VMESS_WSPATH"
+
 
 
 echo "=========================================="
 echo "   Here is your V2ray config link"
 echo ""
-echo $config_link
+echo "vmess://ws+tls:$UUID-0@$DOPRAX_APP_URL:443/?path=$VMESS_WSPATH"
 echo ""
 echo "=========================================="
 
