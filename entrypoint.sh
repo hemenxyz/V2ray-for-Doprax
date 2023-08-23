@@ -10,10 +10,11 @@ config_link="vmess://ws+tls:$UUID-0@$DOPRAX_APP_URL:443/?path=$VMESS_WSPATH"
 
 
 echo "=========================================="
-echo "   Here is your config link"
-echo "=========================================="
+echo "   Here is your V2ray config link"
 echo ""
-echo "Config Link:"
 echo "$config_link"
+echo ""
+echo "=========================================="
+
 
 /usr/bin/supervisord -c /etc/supervisor/conf.d/supervisord.conf
