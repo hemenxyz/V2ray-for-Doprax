@@ -3,5 +3,5 @@ main:
     - UUID: uuid
       type: uuid
     - VMESS_WSPATH: /vmess
-    - VMESS_WSPATH: /vless
+    - VLESS_WSPATH: /vless
     
