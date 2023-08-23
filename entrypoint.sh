@@ -12,7 +12,7 @@ config_link="vmess://ws+tls:$UUID-0@$DOPRAX_APP_URL:443/?path=$VMESS_WSPATH"
 echo "=========================================="
 echo "   Here is your V2ray config link"
 echo ""
-echo "$config_link"
+echo $config_link
 echo ""
 echo "=========================================="
 
