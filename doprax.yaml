@@ -1,6 +1,7 @@
 main:
   envs:
     - UUID: uuid
+      type: secret
     - VMESS_WSPATH: /vmess
     - VLESS_WSPATH: /vless
     
